@@ -1,4 +1,4 @@
-class DashboardBase2Controller < ApplicationController
+class DashboardBaseController < ApplicationController
   before_action :authenticate_user!
-  layout 'example_base'
+  layout 'dashboard_base'
 end
